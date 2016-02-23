@@ -19,7 +19,7 @@ public class LotusBIDashboard extends Application {
     
     private DashboardController dashboard;
     private LoginController login;
-            
+    private int a;        
     @Override
     public void start(Stage stage) throws Exception {
         dashboard = new DashboardController();
